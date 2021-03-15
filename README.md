@@ -40,13 +40,6 @@
 3. Within a minute, you'll have your own site deployed to `MyUsername.github.io/preact-frontend-quickstart`.
 
 
-## About the demo
-
-The demo site is served using static assets and GitHub Pages. 
-
-The `.nojekyll` file is setup to prevent Jekyll processing. Since Jekyll is no needed here and you could otherwise get errors using JavaScript syntax that looks like Liquid syntax.
-
-
 ## What is Preact?
 
 - [Preact homepage](https://preactjs.com/)
@@ -68,6 +61,31 @@ You can use Preact as a CLI tool with Node. Here is a template project based on 
 Rather want to use React? See this React template. Includes documentation and a flow build and deploy to GitHub Pages.
 
 [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
+
+
+
+## About
+
+### Features
+
+- Built on Preact latest version.
+- No build step - locally or for CI-CD. Just start a static server in the project root - locally or with GH Pages or Netlify.
+- This light Preact stup on the frontend is great for small and simple projects.
+- It's also adding interactive behavior to an existing site, without having to rebuild as a Node/React/Preact app and also while keeping the browser impact minimal (Preact is only 3kb).
+
+### Limitations
+
+- Developer experience is limited - no CLI tooling to catch syntax or linting errors.
+- No use of JSX syntax. You can use `htm` though as covered in the Getting Started page of Preact.
+- No use of Prettify - though you can always use the online version at the [Prettier Playground](https://prettier.io/playground/) or run it ad hoc using `npx prettier main.js -w` (requires Node to be installed but doesn't require Prettier to be installed).
+
+But, this does make the project lighter - no `package.json`, no ESLint config and no Prettier config.
+
+### About the demo
+
+The demo site is served using static assets and GitHub Pages. 
+
+The `.nojekyll` file is setup to prevent Jekyll processing. Since Jekyll is no needed here and you could otherwise get errors using JavaScript syntax that looks like Liquid syntax.
 
 
 ## License
