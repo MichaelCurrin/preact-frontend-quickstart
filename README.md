@@ -69,17 +69,19 @@ Rather want to use React? See this React template. Includes documentation and a 
 ### Features
 
 - Built on Preact latest version.
-- No build step - locally or for CI-CD. Just start a static server in the project root - locally or with GH Pages or Netlify.
-- This light Preact stup on the frontend is great for small and simple projects.
+- No build step - locally or for CI/CD. Just start a static server in the project root - locally or with GH Pages or Netlify.
+- This light Preact setup on the frontend is great for small and simple projects.
 - It's also adding interactive behavior to an existing site, without having to rebuild as a Node/React/Preact app and also while keeping the browser impact minimal (Preact is only 3kb).
+- You can put your JS code as a separate JS script as here with [main.js](/main.js), or even directly on your HTML page.
+- This project structure is lighter - no `package.json`, no ESLint config and no Prettier config. See limitations below around this.
 
 ### Limitations
 
 - Developer experience is limited - no CLI tooling to catch syntax or linting errors.
 - No use of JSX syntax. You can use `htm` though as covered in the Getting Started page of Preact.
 - No use of Prettify - though you can always use the online version at the [Prettier Playground](https://prettier.io/playground/) or run it ad hoc using `npx prettier main.js -w` (requires Node to be installed but doesn't require Prettier to be installed).
+- Preact 
 
-But, this does make the project lighter - no `package.json`, no ESLint config and no Prettier config.
 
 ### About the demo
 
