@@ -47,6 +47,16 @@
     
 See also [Getting started](https://preactjs.com/guide/v10/getting-started/) page.
 
+The version of Preact is not locked in [main.js](/main.js).
+
+The URL is:
+
+https://unpkg.com/preact?module 
+
+You could lock the version as:
+
+https://unpkg.com/preact@10.5.13?module 
+
 
 ## Alternative projects
 
