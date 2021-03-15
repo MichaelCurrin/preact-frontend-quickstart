@@ -38,6 +38,8 @@
 2. Go to your repo's _Settings_ and enable _GitHub Pages_.
 3. Within a minute, you'll have your own site deployed to `MyUsername.github.io/preact-frontend-quickstart`.
 
+If you want to run the web app locally, just start a static server in the repo root. See recommended server options in this [gist](https://gist.github.com/MichaelCurrin/1a6116a4e0918c8468dc7e1a701a5f95).
+
 
 ## What is Preact?
 
@@ -75,6 +77,16 @@ Rather want to use React? See this React template. Includes documentation and a 
 ## About
 > More info on this project
 
+### Stucture
+
+This project only needs 3 files to run.
+
+- [index.html](/index.html) - homepage.
+- [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounds it on the `body` element of the HTML.
+- [styles.css](/styles.css) - some minimal CSS styling.
+
+The JS file is is loaded as an ES Module, which means we get to load `preact` and `htm` with the `import` syntax and so don't need to load those as separate `script` tags on the HTML page. This keeps all your JS and dependencies together, without needing the HTML page for validation and testing (like unit tests).
+
 ### Features
 
 - Built on Preact latest version.
@@ -91,9 +103,9 @@ Rather want to use React? See this React template. Includes documentation and a 
 - No use of Prettify - though you can always use the online version at the [Prettier Playground](https://prettier.io/playground/) or run it ad hoc using `npx prettier main.js -w` (requires Node to be installed but doesn't require Prettier to be installed).
 - Preact 
 
-### About the demo
+### The demo
 
-The demo site is served using static assets and GitHub Pages. 
+The demo site is served using static assets and GitHub Pages. No build step needed.
 
 The `.nojekyll` file is setup to prevent Jekyll processing. Since Jekyll is no needed here and you could otherwise get errors using JavaScript syntax that looks like Liquid syntax.
 
