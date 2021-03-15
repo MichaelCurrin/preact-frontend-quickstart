@@ -17,7 +17,6 @@
 </div>
 
 
-
 ## Online demo
 
 <div align="center">
@@ -73,8 +72,8 @@ Rather want to use React? See this React template. Includes documentation and a 
 [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
 
 
-
 ## About
+> More info on this project
 
 ### Features
 
@@ -91,7 +90,6 @@ Rather want to use React? See this React template. Includes documentation and a 
 - No use of JSX syntax. You can use `htm` though as covered in the Getting Started page of Preact.
 - No use of Prettify - though you can always use the online version at the [Prettier Playground](https://prettier.io/playground/) or run it ad hoc using `npx prettier main.js -w` (requires Node to be installed but doesn't require Prettier to be installed).
 - Preact 
-
 
 ### About the demo
 
