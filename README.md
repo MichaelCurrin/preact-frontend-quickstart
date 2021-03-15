@@ -100,14 +100,16 @@ The JS file is is loaded as an ES Module, which means we get to load `preact` an
 
 - Developer experience is limited - no CLI tooling to catch syntax or linting errors.
 - No use of JSX syntax. You can use `htm` though as covered in the Getting Started page of Preact.
-- No use of Prettify - though you can always use the online version at the [Prettier Playground](https://prettier.io/playground/) or run it ad hoc using `npx prettier main.js -w` (requires Node to be installed but doesn't require Prettier to be installed).
-- Preact 
+- No use of Prettify.
+    - Though, you can always use the online version at the [Prettier Playground](https://prettier.io/playground/).
+    - Or use NPX to download and run Pretttier as  `npx prettier -w main.js`. This requires Node to be installed but doesn't require Prettier to be installed.
+- Preact version is not locked.
 
 ### The demo
 
-The demo site is served using static assets and GitHub Pages. No build step needed.
+The demo site is served using **static assets** on [GitHub Pages](https://pages.github.com/). No compile or build step is needed.
 
-The `.nojekyll` file is setup to prevent Jekyll processing. Since Jekyll is no needed here and you could otherwise get errors using JavaScript syntax that looks like Liquid syntax.
+The `.nojekyll` file is setup to prevent [Jekyll](https://pages.github.com/) processing. Since Jekyll is no needed here and you could otherwise get errors using JavaScript syntax that looks like Liquid syntax.
 
 
 ## License
