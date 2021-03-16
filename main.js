@@ -9,4 +9,4 @@ function App(props) {
   `;
 }
 
-render(html`<${App} name="World" />`, document.getElementById("app"));
+render(html`<${App} name="Preact developer" />`, document.getElementById("app"));
