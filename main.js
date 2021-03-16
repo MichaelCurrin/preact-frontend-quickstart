@@ -4,7 +4,9 @@ import htm from "https://unpkg.com/htm?module";
 const html = htm.bind(h);
 
 function App(props) {
-  return html`<h1>Hello, ${props.name}!</h1>`;
+  return html`
+    <p>Hello, ${props.name}!</p>
+  `;
 }
 
-render(html`<${App} name="World" />`, document.body);
+render(html`<${App} name="World" />`, document.getElementById("app"));
