@@ -80,7 +80,7 @@ Rather want to use React? See this React template. Includes documentation and a 
 This project only needs 3 files to run:
 
 - [index.html](/index.html) - homepage.
-- [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounds it on the `body` element of the HTML.
+- [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounts it on the `body` element of the HTML.
 - [styles.css](/styles.css) - some minimal CSS styling.
 
 The JS file is is loaded as an ES Module, which means we get to load `preact` and `htm` with the `import` syntax and so don't need to load those as separate `script` tags on the HTML page. This keeps all your JS and dependencies together, without needing the HTML page for validation and testing (like unit tests).
