@@ -45,16 +45,14 @@ If you want to run the web app locally, just start a static server in the repo r
 
 ## What is Preact?
 
-- [Preact homepage](https://preactjs.com/)
+- [Preact](https://preactjs.com/) homepage
     > Fast 3kB alternative to React with the same modern API
     
-See also [Getting started](https://preactjs.com/guide/v10/getting-started/) page.
+See also the [Getting Started](https://preactjs.com/guide/v10/getting-started/) page.
 
-The version of Preact is not locked in [main.js](/main.js).
+In this project, the Preact version is set in [main.js](/main.js).
 
-The URL is: https://unpkg.com/preact?module 
-
-You could lock the version as: https://unpkg.com/preact@10.5.13?module 
+You can use `https://unpkg.com/preact?module` to get the absolute latest, but it is safer to lock like `https://unpkg.com/preact@10.5.13?module`.
 
 
 ## Alternative projects
