@@ -34,9 +34,11 @@
 
 </div>
 
-1. Add this project to your repos with the template button (no need to fork).
+How to setup:
+
+1. Add this project to your repos with the template button above (no need to fork).
 2. Go to your repo's _Settings_ and enable _GitHub Pages_.
-3. Within a minute, you'll have your own site deployed to `MyUsername.github.io/preact-frontend-quickstart`.
+3. After a few seconds, open your site deployed at `MyUsername.github.io/preact-frontend-quickstart`.
 
 If you want to run the web app locally, just start a static server in the repo root. See recommended server options in this [gist](https://gist.github.com/MichaelCurrin/1a6116a4e0918c8468dc7e1a701a5f95).
 
@@ -50,13 +52,9 @@ See also [Getting started](https://preactjs.com/guide/v10/getting-started/) page
 
 The version of Preact is not locked in [main.js](/main.js).
 
-The URL is:
+The URL is: https://unpkg.com/preact?module 
 
-https://unpkg.com/preact?module 
-
-You could lock the version as:
-
-https://unpkg.com/preact@10.5.13?module 
+You could lock the version as: https://unpkg.com/preact@10.5.13?module 
 
 
 ## Alternative projects
@@ -77,9 +75,9 @@ Rather want to use React? See this React template. Includes documentation and a 
 ## About
 > More info on this project
 
-### Stucture
+### Structure
 
-This project only needs 3 files to run.
+This project only needs 3 files to run:
 
 - [index.html](/index.html) - homepage.
 - [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounds it on the `body` element of the HTML.
