@@ -57,23 +57,9 @@ You can use `https://unpkg.com/preact?module` to get the absolute latest, but it
 
 ## Related projects
 
-### Preact with Node quickstart
-
-You can use Preact as a CLI tool with Node. Here is a template project based on the Create Preact App quickstart.
-
-[![MichaelCurrin - preact-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=preact-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/preact-quickstart)
-
-### React with Node quickstart
-
-Rather want to use React? See this React template. Includes documentation and a flow build and deploy to GitHub Pages.
-
-[![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart)
-
-### Vue Frontend Quickstart
-
-A similar project to this Preact one - using Vue without a CLI or Node.
-
-[![MichaelCurrin - vue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-frontend-quickstart)
+- [![MichaelCurrin - preact-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=preact-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/preact-quickstart) - Preact with Node quickstart. You can use Preact as a CLI tool with Node. Here is a template project based on the Create Preact App quickstart.
+- [![MichaelCurrin - react-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=react-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/react-quickstart) - React with Node quickstart. Rather want to use React? See this React template. Includes documentation and a flow build and deploy to GitHub Pages.
+- [![MichaelCurrin - vue-frontend-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=vue-frontend-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/vue-frontend-quickstart) - Vue without Node quickstart. A similar project to this Preact one - using Vue without a CLI or Node.
 
 
 ## About
