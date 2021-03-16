@@ -95,9 +95,8 @@ The JS file is is loaded as an ES Module, which means we get to load `preact` an
 ### Limitations
 
 - Developer experience is limited - no CLI tooling to catch syntax or linting errors.
-- No use of JSX syntax. You can use `htm` though as covered in the Getting Started page of Preact.
-- No use of Prettifier.
-- Preact version is not locked.
+- No use of JSX syntax. You can easily use `htm` though - that in covered in the Getting Started page of the docs and is used in this template project.
+- No linting or formatting tool is supplied.
 
 ### The demo
 
