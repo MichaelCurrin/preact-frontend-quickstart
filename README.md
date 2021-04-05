@@ -102,15 +102,13 @@ The `.nojekyll` file is setup to prevent [Jekyll](https://pages.github.com/) pro
 
 ### Formatting
 
-You can use the online Prettier ersion at the [Prettier Playground](https://prettier.io/playground/).
+You can use the online Prettier version at the [Prettier Playground](https://prettier.io/playground/).
 
-Or use NPX to download and run Pretttier as:
+If you have Node and `make` installed, you can use this to format with the latest version of Prettier, even without Prettier installed at all.
 
 ```sh
-$ npx prettier -w '*.{js,css}'
+$ make fmt
 ```
-
-This requires Node to be installed but doesn't require Prettier to be installed.
 
 
 ## License
