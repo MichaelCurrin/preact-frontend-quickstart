@@ -1,5 +1,16 @@
 # About
-> More info on this project
+
+
+## What is Preact?
+
+- [Preact](https://preactjs.com/) homepage
+    > Fast 3kB alternative to React with the same modern API
+    
+See also the [Getting Started](https://preactjs.com/guide/v10/getting-started/) page.
+
+In this project, the Preact version is set in [main.js](/main.js).
+
+You can use `https://unpkg.com/preact?module` to get the absolute latest, but it is safer to lock like `https://unpkg.com/preact@10.5.13?module`.
 
 
 ## Structure
