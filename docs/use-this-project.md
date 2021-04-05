@@ -1,4 +1,4 @@
-## Use template
+# Use this project
 
 <div align="center">
 
