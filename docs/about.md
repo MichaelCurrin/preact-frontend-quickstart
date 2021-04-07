@@ -43,7 +43,7 @@ The JS file is is loaded as an ES Module, which means we get to load `preact` an
 ## Limitations
 
 - Developer experience is limited - no CLI tooling to catch syntax or linting errors.
-- No use of JSX syntax. You can easily use `htm` though - that in covered in the Getting Started page of the docs and is used in this template project.
+- You can't use JSX syntax directly the way this project is setup. But you can use a backticks string with JSX syntax inside it, thanks to the HTM package used here.
 - No linting or formatting tool is supplied.
 
 
