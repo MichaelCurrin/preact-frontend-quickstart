@@ -1,5 +1,5 @@
 # Preact Frontend Quickstart
-> Starter template for using Preact on the frontend - without using Node
+> Starter template for adding Preact to a website - without using Node or a build step
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/preact-frontend-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/preact-frontend-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
