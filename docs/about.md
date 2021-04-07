@@ -3,7 +3,7 @@
 
 ## What is Preact?
 
-- [Preact](https://preactjs.com/) homepage
+- [Preact homepage](https://preactjs.com/)
     > Fast 3kB alternative to React with the same modern API
     
 See also the [Getting Started](https://preactjs.com/guide/v10/getting-started/) page.
@@ -27,12 +27,12 @@ This project only needs 3 files to run:
 - [main.js](/main.js) - the app logic. This loads dependencies, constructs the app and then mounts it an element in the body of the HTML.
 - [styles.css](/styles.css) - some minimal CSS styling.
 
-The JS file is is loaded as an ES Module, which means we get to load `preact` and `htm` with the `import` syntax and so don't need to load those as separate `script` tags on the HTML page. This keeps all your JS and dependencies together, without needing the HTML page for validation and testing (like unit tests).
+The JS file is is loaded as an ES Module, which means we get to load `preact` and `htm` with the `import` syntax and so don't need to load those as separate `script` tags on the HTML page. This keeps all your JS and dependencies together and separate from the HTML, so it is easy to maintain as JS scripts and run tools against them.
 
 
 ## Features
 
-- Built on Preact latest version.
+- Built on Preact from a CDN.
 - No build step - locally or for CI/CD. Just start a static server in the project root - locally or with GH Pages or Netlify.
 - This light Preact setup on the frontend is great for small and simple projects.
 - It's also adding interactive behavior to an existing site, without having to rebuild as a Node/React/Preact app and also while keeping the browser impact minimal (Preact is only 3kb).
