@@ -10,7 +10,13 @@ See also the [Getting Started](https://preactjs.com/guide/v10/getting-started/) 
 
 In this project, the Preact version is set in [main.js](/main.js).
 
-You can use `https://unpkg.com/preact?module` to get the absolute latest, but it is safer to lock like `https://unpkg.com/preact@10.5.13?module`.
+It is safest to lock the version like this:
+
+- https://unpkg.com/preact@10.5.13?module
+
+Though you could let the version float like this:
+
+- https://unpkg.com/preact?module
 
 
 ## Structure
