@@ -10,13 +10,9 @@ See also the [Getting Started](https://preactjs.com/guide/v10/getting-started/) 
 
 In this project, the Preact version is set in [main.js](/main.js).
 
-It is safest to lock the version like this:
+It is safest to lock the version like this: https://unpkg.com/preact@10.5.13?module
 
-- https://unpkg.com/preact@10.5.13?module
-
-Though you could let the version float like this:
-
-- https://unpkg.com/preact?module
+Though, you could let the version float like this: https://unpkg.com/preact?module
 
 
 ## Structure
@@ -43,7 +39,7 @@ The JS file is is loaded as an ES Module, which means we get to load `preact` an
 ## Limitations
 
 - Developer experience is limited - no CLI tooling to catch syntax or linting errors.
-- You can't use JSX syntax directly the way this project is setup. But you can use a backticks string with JSX syntax inside it, thanks to the HTM package used here.
+- You can't use JSX syntax directly the way this project is setup. But you can use a backticks string with JSX syntax inside it, thanks to the [HTM](https://www.npmjs.com/package/htm) package used here.
 - No linting or formatting tool is supplied.
 
 
